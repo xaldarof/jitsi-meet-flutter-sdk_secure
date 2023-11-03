@@ -1,10 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jitsi_meet_flutter_sdk/src/jitsi_meet.dart';
-import 'package:jitsi_meet_flutter_sdk/src/jitsi_meet_platform_interface.dart';
-import 'package:jitsi_meet_flutter_sdk/src/jitsi_meet_method_channel.dart';
-import 'package:jitsi_meet_flutter_sdk/src/jitsi_meet_event_listener.dart';
-import 'package:jitsi_meet_flutter_sdk/src/jitsi_meet_conference_options.dart';
-import 'package:jitsi_meet_flutter_sdk/src/method_response.dart';
+import 'package:jitsi_meet_flutter_sdk_secure/jitsi_meet_flutter_sdk.dart';
+import 'package:jitsi_meet_flutter_sdk_secure/src/jitsi_meet_method_channel.dart';
+import 'package:jitsi_meet_flutter_sdk_secure/src/jitsi_meet_platform_interface.dart';
+import 'package:jitsi_meet_flutter_sdk_secure/src/method_response.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
 
 class MockJitsiMeetPlatform
